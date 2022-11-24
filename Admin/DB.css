@@ -1,0 +1,47 @@
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
+
+body{ font-size: 18px; color: black; list-style: 26px;font-family: 'Roboto', sans-serif; }
+
+/** ======================  base css ==============================**/
+
+:root{
+    --offcanvas-width :270px;
+    --topNavbarheight:56px;
+    
+}
+.sidebar-nav
+{
+    width: var(--offcanvas-width);
+}
+
+@media (min-width:992px)
+{
+    
+    body
+    {
+        overflow: auto !important;
+    }
+    .offcanvas-backdrop::before
+    {
+        display: none;
+    }
+    main
+    { 
+        margin-left: var(--offcanvas-width);
+    }
+
+    .sidebar-nav{ 
+        transform: none;
+        visibility: visible !important;
+        top:var(--topNavbarheight);
+        height: calc(100%- var(--topNavbarheight));
+    }
+    a.navlink :visited
+    {
+        color:white;
+    }
+    
+    
+}

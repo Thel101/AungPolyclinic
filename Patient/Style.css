@@ -1,0 +1,56 @@
+a.nav-link.header:hover {
+    background-color: grey;
+  
+  }
+
+ 
+
+.login-card
+{
+  background-image: url(Images/_x-ray-day.jpeg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.image1
+{
+  width: 400px;
+  height: 400px;
+}
+
+#ConsultDiv
+{
+  background-color: pink;
+  background-image: url(../Images/consultationBG.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: right bottom;
+}
+
+#VaccinationDiv
+{
+  background-color: skyblue;
+  background-image: url(../Images/Vaccination.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: right bottom;
+}
+
+#Screening
+{
+  background-color: lightgreen;
+  background-image: url(../Images/Screening.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: right bottom;
+}
+
+#carouselBG
+{
+  background-color: black;
+}
+
+#Contact
+{
+  background-color: lightgreen;
+}
